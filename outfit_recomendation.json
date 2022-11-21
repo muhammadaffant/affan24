@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Kadekbot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya Kadekbot, salam kenal ya!",
+        "Helo! Ini Kadekbot ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "kadekbot",
+      "patterns": [
+        "Apa itu KadekBot?",
+        "Siapa KadekBot?"
+      ],
+      "responses": [
+        "KadekBot adalah chatbot informasi tentang outfit recomendation!",
+        "KadekBot itu adalah teman informasi kamu tentang outfit recomendation!"
+      ]
+    },
+    {
+      "tag": "pencipta_kadekbot",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Kadek, yang buat kamu siapa sih?",
+        "Siapa penciptamu, Kadek?"
+      ],
+      "responses": [
+        "KadekBot diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat KadekBot dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {"tag": "penjelasan_aplikasi_outfit_recomendation",
+    "patterns": [
+      "Apa itu aplikasi outfit recomendation?",
+      "Apa itu app outfit recomendation?"
+    ],
+    "responses": [
+      "otfit recomendation merupakan aplikasi untuk merekomendasikan otfit anda."
+      ]
+    }
+  ]
+}
